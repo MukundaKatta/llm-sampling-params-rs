@@ -1,0 +1,13 @@
+[package]
+name = "llm-sampling-params"
+version = "0.1.0"
+edition = "2021"
+description = "Builder for LLM sampling parameters (temperature, top_p, top_k, stop sequences)"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/llm-sampling-params-rs"
+keywords = ["llm", "sampling", "temperature", "agent", "parameters"]
+categories = ["text-processing"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
+serde_json = "1"
