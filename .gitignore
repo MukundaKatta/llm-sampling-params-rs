@@ -1,0 +1,5 @@
+# Rust build artifacts
+/target
+
+# Lock file is not committed for libraries
+Cargo.lock
